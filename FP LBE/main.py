@@ -8,7 +8,7 @@ from level import Level
 pygame.init()
 
 pygame.mixer.music.load(MUSIC_FILE)
-pygame.mixer.music.set_volume(0)
+pygame.mixer.music.set_volume(0.2)
 pygame.mixer.music.play(-1)
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
